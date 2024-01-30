@@ -9,13 +9,16 @@ The system is also linked with a system embedded on arduino which manages the ha
 
 + Home page for a non configured road
 
-  ![Screenshot_1](https://github.com/Walter28/TraficLight-System/assets/62870646/8d9bf54e-bbe8-4c02-beea-a094e8bb3257)
+  ![Screenshot_1](https://github.com/Walter28/TraficLight-System/assets/62870646/247a3439-1d07-44b8-996d-a14732571b80)
+
 
 + Home page for a road configured with an embedeed camera
 
-  ![Screenshot_2](https://github.com/Walter28/TraficLight-System/assets/62870646/46ab88a9-ed78-4d9e-bc13-c467670f6776)
+  ![Screenshot_2](https://github.com/Walter28/TraficLight-System/assets/62870646/3fe94e86-7b68-4156-8963-f85195101c9b)
+
 
 + Settings menu
 
-  ![Screenshot_3](https://github.com/Walter28/TraficLight-System/assets/62870646/f9d160a1-18c4-4319-8074-c5ca904f0483)
+  ![Screenshot_3](https://github.com/Walter28/TraficLight-System/assets/62870646/4ceb79ac-3800-4a5f-9f95-56b9176af5c4)
+
 
