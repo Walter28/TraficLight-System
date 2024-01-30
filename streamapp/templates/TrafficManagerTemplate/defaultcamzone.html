@@ -1,0 +1,32 @@
+<div class="card-body d-flex" style="background-color: #384250;justify-content: space-around;min-height: 550px;">
+
+    <div class="content bg-dar m-auto h-5 w-50 text-center">
+        <div class="bg-ligh">
+            <h3 class="lead">Add A Camera</h3>
+            <div class="choose-cam-region p-2" style="border: dotted #737b84;">
+                <div>
+                    <i class="mdi mdi-camera-plus-outline" style="font-size: 40px;"></i>
+                </div>
+                <div>
+                    <p>
+                        <span class="mdi mdi-arrow-down-left"></span>
+                        Choose down among avaliable camera
+                    </p>
+                </div>
+                
+            </div>
+            <div class="input-group mb-3 pt-2">
+                <p id="show" style="display: none;"></p>
+                <span class="input-group-text" style="background: none;">Avalaible Camera</span>
+                <select class="form-select" style="background-color: #4c5561;" id="camera_form" onchange="road_set_camera()">
+                    <option value="default">Choose a camera</option>
+                    {% for key, value in cameras.items %}
+                    <option value={{value}} >{{value}}</option>
+                    {% endfor %}
+                </select>
+            </div>
+        </div>
+        
+    </div>
+        
+</div> <!-- end card-body-->

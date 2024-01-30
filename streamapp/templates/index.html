@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Streaming</title>
+</head>
+<body>
+    <h1>Traffic Light Control App</h1>
+    {% if isConfigure != True %}
+        {{ isConfigure }}
+        {% include 'TrafficManagerTemplate/defaultcamzone.html' %}
+    {% else %}
+        {{ isConfigure }}
+        {% include 'TrafficManagerTemplate/camview.html' %}
+    {% endif %}
+</body>
+</html>

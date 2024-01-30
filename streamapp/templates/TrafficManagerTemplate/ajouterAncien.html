@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    
+<!-- Mirrored from coderthemes.com/hyper_2/saas/ajouterAncien.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 20 Jun 2023 14:55:31 GMT -->
+<head>
+        <meta charset="utf-8" />
+        <title>Create Project | Hyper - Responsive Bootstrap 5 Admin Dashboard</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
+        <meta content="Coderthemes" name="author" />
+
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+       
+        <!-- Bootstrap Datepicker css -->
+        <link href="assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker.min.css" rel="stylesheet" type="text/css" />
+
+        <!-- Select2 Plugins css -->
+        <link href="assets/vendor/select2/css/select2.min.css" rel="stylesheet" type="text/css" />
+
+        <!-- Theme Config Js -->
+        <script src="assets/js/hyper-config.js"></script>
+
+        <!-- App css -->
+        <link href="assets/css/app-saas.min.css" rel="stylesheet" type="text/css" id="app-style" />
+
+        <!-- Icons css -->
+        <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+        <!-- Begin page -->
+        <div class="wrapper">
+
+            
+            <!-- ========== Topbar Start ========== -->
+            <div class="navbar-custom">
+                <div class="topbar container-fluid">
+                    <div class="d-flex align-items-center gap-lg-2 gap-1">
+
+                        <!-- Topbar Brand Logo -->
+                        <div class="logo-topbar">
+                            <!-- Logo light -->
+                            <a href="index.html" class="logo-light">
+                                <span class="logo-lg">
+                                    <img src="assets/images/logo.png" alt="logo">
+                                </span>
+                                <span class="logo-sm">
+                                    <img src="assets/images/logo-sm.png" alt="small logo">
+                                </span>
+                            </a>
+
+                            <!-- Logo Dark -->
+                            <a href="index.html" class="logo-dark">
+                                <span class="logo-lg">
+                                    <img src="assets/images/logo-dark.png" alt="dark logo">
+                                </span>
+                                <span class="logo-sm">
+                                    <img src="assets/images/logo-dark-sm.png" alt="small logo">
+                                </span>
+                            </a>
+                        </div>
+
+                        <!-- Sidebar Menu Toggle Button -->
+                        <button class="button-toggle-menu">
+                            <i class="mdi mdi-menu"></i>
+                        </button>
+
+                        <!-- Horizontal Menu Toggle Button -->
+                        <button class="navbar-toggle" data-bs-toggle="collapse" data-bs-target="#topnav-menu-content">
+                            <div class="lines">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </button>
+
+                    </div>
+
+                    <ul class="topbar-menu d-flex align-items-center gap-3">
+
+                        <li class="dropdown">
+                            <a class="nav-link dropdown-toggle arrow-none nav-user px-2" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                                <span class="account-user-avatar">
+                                    <img src="assets/images/users/avatar-1.jpg" alt="user-image" width="32" class="rounded-circle">
+                                </span>
+                                <span class="d-lg-flex flex-column gap-1 d-none">
+                                    <h5 class="my-0">Walter Christian</h5>
+                                    <h6 class="my-0 fw-normal">Admin</h6>
+                                </span>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-end dropdown-menu-animated profile-dropdown">
+                                <!-- item-->
+                                <div class=" dropdown-header noti-title">
+                                    <h6 class="text-overflow m-0">Welcome !</h6>
+                                </div>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item">
+                                    <i class="mdi mdi-account-circle me-1"></i>
+                                    <span>Mon Compte</span>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item">
+                                    <i class="mdi mdi-logout me-1"></i>
+                                    <span>Se Deconnecter</span>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- ========== Topbar End ========== -->
+
+            <!-- ========== Left Sidebar Start ========== -->
+            <div class="leftside-menu">
+
+                <!-- Brand Logo Light -->
+                <a href="index.html" class="logo logo-light">
+                    <span class="logo-lg">
+                        <img src="assets/images/logo.png" alt="logo">
+                    </span>
+                    <span class="logo-sm">
+                        <img src="assets/images/logo-sm.png" alt="small logo">
+                    </span>
+                </a>
+
+
+                <!-- Sidebar Hover Menu Toggle Button -->
+                <div class="button-sm-hover" data-bs-toggle="tooltip" data-bs-placement="right" title="Show Full Sidebar">
+                    <i class="ri-checkbox-blank-circle-line align-middle"></i>
+                </div>
+
+                <!-- Full Sidebar Menu Close Button -->
+                <div class="button-close-fullsidebar">
+                    <i class="ri-close-fill align-middle"></i>
+                </div>
+
+                <!-- Sidebar -left -->
+                <div class="h-100" id="leftside-menu-container" data-simplebar>
+
+                    <!--- Sidemenu -->
+                    <ul class="side-nav">
+
+                        <li class="side-nav-title">Navigation</li>
+
+                        <li class="side-nav-item">
+                            <a  href="index.html" class="side-nav-link">
+                                <i class="uil-home-alt"></i>
+                                <span> Dashboards </span>
+                            </a>
+                        </li>
+
+                        <li class="side-nav-item">
+                            <a data-bs-toggle="collapse" href="#sidebarEcommerce" aria-expanded="false" aria-controls="sidebarEcommerce" class="side-nav-link">
+                                <i class="ri-settings-3-line"></i>
+                                <span> Operations </span>
+                                <span class="menu-arrow"></span>
+                            </a>
+                            <div class="collapse" id="sidebarEcommerce">
+                                <ul class="side-nav-second-level">
+                                    <li>
+                                        <a href="ajouterAncien.html">Ajout Ancien</a>
+                                    </li>
+                                    <li>
+                                        <a href="afficherListeAncien.html">Liste Des Anciens</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+
+                    </ul>
+                    <!--- End Sidemenu -->
+
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <!-- ========== Left Sidebar End ========== -->
+
+            <!-- ============================================================== -->
+            <!-- Start Page Content here -->
+            <!-- ============================================================== -->
+
+            <div class="content-page">
+                <div class="content">
+
+                    <!-- Start Content-->
+                    <div class="container-fluid">
+
+                        <!-- start page title -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="page-title-box">
+                                    <h4 class="page-title">Ajouter Un Ancien</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end page title -->
+
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="card">
+                                    <div class="card-body">
+
+                                        <div class="row">
+                                            <div class="col-xl-6">
+                                                <div class="mb-3">
+                                                    <label for="nom" class="form-label">Nom</label>
+                                                    <input type="text" id="projectname" name="nom" class="form-control" placeholder="Votre nom ..." required>
+                                                </div>
+
+                                                <div class="mb-3">
+                                                    <label for="post" class="form-label">Post-Nom</label>
+                                                    <input type="text" id="post" name="post" class="form-control" placeholder="Votre prenom ..." required>
+                                                </div>
+
+                                                <div class="mb-3">
+                                                    <label for="matricule" class="form-label">Matricule</label>
+                                                    <input type="number" id="matricule" name="matricule" class="form-control" placeholder="Votre matricule ...">
+                                                </div>
+
+                                                <div class="mb-3">
+                                                    <label for="sexe" class="form-label">Sexe</label>
+                                                    <select class="form-select" name="sexe" aria-label="Default select example">
+                                                        <option selected>Choisez le sexe</option>
+                                                        <option value="F">F</option>
+                                                        <option value="M">M</option>
+                                                    </select>
+                                                </div>
+
+                                                <div class="mb-3">
+                                                    <a href="#" class="btn btn-primary"><i class="mdi mdi-content-save"></i> Enregistrer</a>
+                                                </div>
+
+                                            </div> <!-- end col-->
+
+                                            <div class="col-xl-6">
+
+                                                <div class="mb-3">
+                                                    <label for="etat" class="form-label">Etat</label>
+                                                    <select class="form-select" name="etat" aria-label="Default select example">
+                                                        <option selected>Choissez l'etat</option>
+                                                        <option value="Engagé">Engagé</option>
+                                                        <option value="Sans Emploi">Sans Emploi</option>
+                                                        <option value="Auto Employé">Auto Employé</option>
+                                                    </select>
+                                                </div>
+
+                                                <div class="mb-3">
+                                                    <label for="contrat" class="form-label">Contrat</label>
+                                                    <select class="form-select" name="contrat" aria-label="Default select example">
+                                                        <option selected>Choissez le contrat</option>
+                                                        <option value="CDD">CDD</option>
+                                                        <option value="CDI">CDI</option>
+                                                        <option value="No Contrat">No Contrat</option>
+                                                    </select>
+                                                </div>
+                                            </div> <!-- end col-->
+                                        </div>
+                                        <!-- end row -->
+
+                                    </div> <!-- end card-body -->
+                                </div> <!-- end card-->
+                            </div> <!-- end col-->
+                        </div>
+                        <!-- end row-->
+                        
+                    </div> <!-- container -->
+
+                </div> <!-- content -->
+
+                <!-- Footer Start -->
+                <footer class="footer">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <script>document.write(new Date().getFullYear())</script> © ULPGL - Goma
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+                <!-- end Footer -->
+
+            </div>
+
+            <!-- ============================================================== -->
+            <!-- End Page content -->
+            <!-- ============================================================== -->
+
+        </div>
+        <!-- END wrapper -->
+
+        
+
+        <!-- Vendor js -->
+        <script src="assets/js/vendor.min.js"></script>
+
+        <!-- Bootstrap Datepicker Plugin js -->
+        <script src="assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+
+        <!-- Select2 js  -->
+        <script src="assets/vendor/select2/js/select2.min.js"></script>
+
+        <!-- Dropzone File Upload js -->
+        <script src="assets/vendor/dropzone/min/dropzone.min.js"></script>
+
+        <!-- init js -->
+        <script src="assets/js/ui/component.fileupload.js"></script>
+
+        <!-- App js -->
+        <script src="assets/js/app.min.js"></script>
+
+    </body>
+
+</html>
